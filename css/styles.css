@@ -222,17 +222,17 @@ main {
 }
 
 .item__img {
-	display: flex;
-	padding-top: 15px;
+/*	display: flex;
+*/	padding-top: 15px;
 	margin-top: 0;
-/*	max-width: 100%;
-	min-width: 100px;
-*/	z-index: -1;
+/*	max-width: 260px;
+	min-width: 100px;*/
+	z-index: -1;
 }
 
 .item__img img {
-	max-width: 260px;
-	min-width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 .item__price {
