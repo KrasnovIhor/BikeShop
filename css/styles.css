@@ -225,13 +225,14 @@ main {
 	display: flex;
 	padding-top: 15px;
 	margin-top: 0;
-	max-width: 100%;
+/*	max-width: 100%;
 	min-width: 100px;
-	z-index: -1;
+*/	z-index: -1;
 }
 
 .item__img img {
-	width: 100%;
+	max-width: 260px;
+	min-width: 100%;
 }
 
 .item__price {
