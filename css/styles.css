@@ -230,12 +230,12 @@ main {
 	z-index: -1;
 }
 
-.item__img img {
+/*.item__img img {
 	flex: 1 1 auto;
 	width: 100%;
 	min-width: 70px;
 }
-
+*/
 .item__price {
 	font-size: 13px;
 	color: #878787;
