@@ -6,6 +6,10 @@
   margin-top: 20px;
 }
 
+.ui-widget {
+	margin-top: 20px;
+}
+
 .container {
   display: grid;
   height: 100vh;
@@ -75,6 +79,15 @@ aside {
   background: #495759;
   padding: 15px;
   grid-area: panright;
+}
+
+aside ul {
+	display: flex;
+	justify-content: center;
+}
+
+aside ul li {
+	min-width: 150px;
 }
 
 footer {
@@ -274,3 +287,4 @@ main {
     letter-spacing: 1px;
   }
 }
+

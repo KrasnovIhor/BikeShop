@@ -10,6 +10,8 @@
 	<title>Task 1.5</title>
 </head>
 <body>
+<script src="./js/facebook.js"></script>
+
 	<div class="container">
 		<header class="header">
 			<div class="header__logo">
@@ -23,7 +25,7 @@
 					<li><a href="contacts.html" class="nav-link">Contacts</a></li>
 				</ul>
 			</nav>
-			<main>
+			<main id="main">
 				<div class="item">
 					<div class="item__header">
 						<h2>Cruiser</h2>
@@ -158,6 +160,11 @@
 				</div>
 			</main>
 			<aside>
+				<div class="registration-menu">
+					<ul>
+						<li><a id="sign-in-link" href="register.html" class="nav-link">Sign In</a></li>
+					</ul>
+				</div>
 				<div class="ui-widget">
 					<label for="tags" class="search">Search: </label>
 					<input id="tags">
@@ -171,5 +178,6 @@
 	<script src="./js/jquery.js"></script>
 	<script src="./js/jquery-ui.min.js"></script>
 	<script src="./js/main.js"></script>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </body>
 </html>
